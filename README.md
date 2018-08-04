@@ -3,6 +3,6 @@ Making API calls to the met office weather data website to get weather forecasts
 
 This uses pyspark and Hadoop system. To run do:
 ``` 
-spark-submit weatherdata.py frequency=<daily|hourly> path=</somepath/> apikey=<api key from met office>
+spark-submit main.py frequency=<daily|hourly> path=</somepath/> apikey=<api key from met office>
 
 ```
